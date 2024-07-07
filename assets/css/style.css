@@ -1,0 +1,197 @@
+/* General Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(160, 0, 75) 0%, rgb(216, 216, 255) 64%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    padding: 5px;
+}
+
+.content {
+    width: 1100px;
+   
+    background-color: none;
+    padding: 10px;
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(10px);
+    text-align: right;
+    font-family: "Poppins";
+    margin-top: 200px;
+    margin-right: 10px;
+    margin-left: 250px;
+}
+
+.image-container img {
+    position: absolute;
+    left: 140px;
+    top: 0px;
+    max-width: 1050px;
+    width: 750px;
+    height: 945px;
+    background-attachment: fixed;
+    background-position: bottom left;
+    margin-left: 1%;
+    margin-top: 67px;
+    z-index: 10;
+}
+
+.title {
+    margin-top: 10px;
+    margin-bottom: 1px;
+    width: 1140px;
+    font-size: 110px;
+    margin-right: 1px;
+    color: #000000;
+    margin-left: 200px;
+    text-align: right;
+}
+
+.subtitle {
+    width: 1060px;
+    font-size: 40px;
+    color: #4b0220;
+    text-align: right;
+    margin-top: 10px;
+    margin-left: 278px;
+}
+hr.new1 {
+    border-top: 5px solid rgba(174, 0, 255, 0);
+  }
+
+
+.title span {
+    margin-top: 13px;
+    margin-bottom: 1px;
+    color: #ff5697;
+}
+
+.title span1 {
+    margin-top: 13px;
+    margin-bottom: 1px;
+    color: #d81587;
+}
+
+.title span2 {
+    margin-top: 13px;
+    margin-bottom: 1px;
+    color: #ed62ff;
+}
+
+.title span3 {
+    margin-top: 13px;
+    margin-bottom: 1px;
+    color: #ff00c8;
+}
+
+.title span4 {
+    margin-top: 13px;
+    margin-bottom: 1px;
+    color: #ff008c;
+}
+
+.title span5 {
+    margin-top: 13px;
+    margin-bottom: 1px;
+    color: #bb56ff;
+}
+
+.title span6 {
+    margin-top: 13px;
+    margin-bottom: 1px;
+    color: #ff00a2;
+}
+
+.content p {
+    font-size: 30px;
+    color: #000000;
+    line-height: 1.7;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 300px;
+    word-spacing: 10px;
+    margin-left: 180px;
+    margin-top: 160px;
+}
+
+.footer a {
+    color: #75003b;
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    margin-left: 250px;
+}
+
+.footer a:hover {
+    color: #555555;
+}
+
+.sidenav {
+    height: 100%;
+    width: 255px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0f0020;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: "Poppins";
+}
+
+.sidenav-image {
+    background-image: url(../img/kln-kreates-logo-1.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    height: 100px;
+    width: 180px;
+    margin-left: 37px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.sidenav a {
+    padding: 6px 6px 18px 42px;
+    padding-right: 9px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ff006a;
+    display: block;
+}
+
+.sidenav b {
+    padding: 6px 6px 18px 42px;
+    padding-right: 9px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ff006a;
+    display: block;
+}
+.sidenav a:hover {
+    color: #ffb1d6;
+    font-weight: 700;
+}
+
+.sidenav-footer {
+    color: #ffb1d6;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 605px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav { padding-top: 15px; }
+    .sidenav a { font-size: 18px; }
+}
