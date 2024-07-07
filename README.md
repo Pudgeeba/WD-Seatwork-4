@@ -9,7 +9,7 @@
     <img src="./assets/img/kln-kreates-logo.png" alt="Kln Kreates" width="200" height="200">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Seatwork 4: Features Display</h3>
+  <h3 align="center">Seatwork 4: Features Section</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
